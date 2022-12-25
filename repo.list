@@ -1,3 +1,5 @@
 # Add all pip modules here
 # You can append your own pip modules to allow installing from supercomputer directly
+# Can install manually with:
+#   pip3 install git+https://github.com/tinylabs/sc-python.git#subdirectory=ui
 'sc-ui @ git+https://github.com/tinylabs/sc-python.git#subdirectory=ui'
