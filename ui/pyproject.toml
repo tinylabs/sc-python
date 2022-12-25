@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-sc_ui = "ui:main"
+sc_ui = "sc_ui.ui:main"
 
 [build-system]
 requires = ["setuptools>=43.0.0", "wheel"]

@@ -1,4 +1,6 @@
+import ui
+
 def main ():
     """Start supercomputer UI"""
-    ui.main()
+    ui.start_ui()
     

@@ -6,7 +6,7 @@ from papirus import PapirusTextPos
 
 
 # Main entry point
-def main ():
+def start_ui ():
     disp = PapirusTextPos (False, rotation=270)
     disp.AddText ("UI running")
     disp.WriteAll ()
