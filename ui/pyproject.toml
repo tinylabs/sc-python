@@ -1,0 +1,25 @@
+[project]
+name = "sc_ui"
+version = "0.0.1"
+description = "UI for supercomputer RPi Zero 2w project"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE.txt"}
+authors = [
+  {name = "Elliot Buller", email = "elliot@tinylabs.io"}
+]
+maintainers = [
+  {name = "Elliot Buller", email = "elliot@tinylabs.io"}
+]
+dependencies = [
+  "papirus>=1.0.0"
+]
+
+[project.scripts]
+sc_ui = "ui:main"
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
